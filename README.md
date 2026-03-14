@@ -3,6 +3,7 @@
 **GenQuote** is a robust, "bulletproof" React application that generates random doses of wisdom using the DummyJSON Quotes API. This project was built with a focus on seamless state management, professional error handling, and optimized API performance.
 
 ---
+## Live Preview: https://gen-qoute.netlify.app/
 
 ## Features
 
