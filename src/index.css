@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Google Sans', sans-serif;
+}
+
+
+body{
+    background-color: #11151C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quoteBox{
+    color: #fff;
+    /* border: 2px dashed rgba(245, 245, 245, 0.2); */
+    max-width: 800px;
+    border-radius: 10px;
+    /* opacity: 0.1; */
+    padding: 20px;
+}
+.quoteBox h1{
+    font-weight: 500;
+    /* opacity: 0.3; */
+    margin: 10px 0;
+    line-height: 3.2rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* color: linear-gradient(red, blue); */
+}
+.quoteBox h1 span{
+    font-size: 40px;
+}
+.quoteBox h2{
+    text-align: center;
+    margin: 30px 0 40px 0;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 20px;
+}
+.buttonContainer{
+    /* border: 2px solid dodgerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: #54F2F2;
+    padding: 12px 15px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 30px 0;
+    transition: all 0.1s ease;
+    box-shadow: 0px 0px 150px #54F2F2;
+
+    
+}
+p{
+    /* border: 2px solid red; */
+    color: #fff;
+}
